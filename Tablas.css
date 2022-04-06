@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://www.xtrafondos.com/wallpapers/cielo-con-nubes-2934.jpg");
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+    color: aliceblue;
+    text-shadow: 1px 2px black;
+}
+h1:hover{
+    text-align: center;
+    font-size: 65px;
+    color: aliceblue;
+    text-shadow: 1px 2px rgb(177, 32, 6);
+}
+
+table{
+    margin-top: 10px; /* Separación de arriba*/
+    caption-side: bottom; /* nombre de la tabla inherit, top, bottom */
+    margin-left: auto; /* centrar tabla */
+    margin-right: auto;
+    border-collapse: separate; /*collapse=  se unan las lineas*/
+    background-color: aliceblue;
+}
+
+th{ /*Fondo de fila titulos */
+    background-color: rgb(177, 32, 6);
+    font-style: italic;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+caption{ /* nombre de la tabla*/
+    padding-top: 10px;
+    font-style: italic; /* foormato de fuente*/
+    font-weight: bold;
+}
+
+td,th{ /* borde para todas las celdas */
+    border: 3px solid rgb(28, 40, 155);
+    padding-left: 25px; /*separacion entre parra de celdas*/
+    padding-right: 20px;
+    padding-top: 5px; /* separacion entre line del parrafo*/
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+td:hover,th:hover{ 
+    border: 2px solid  white;
+    padding-left: 25px; 
+    padding-right: 20px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(177, 32, 6);
+    transform: scale(1.2);
+    color: whitesmoke;
+}
+sub{
+    position: absolute;
+    top:110px;
+    left: 670px;
+    color: whitesmoke;
+    text-shadow: 1px 1px midnightblue;
+    padding-bottom: 1px;
+}
+sub:hover{
+    color: whitesmoke;
+    text-shadow: 1px 1px red;
+    padding-bottom: 1px;
+}
+details{
+    font-size: smaller;
+}
